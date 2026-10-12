@@ -39,16 +39,18 @@ def has_recursion(code):
 
 # (topic, level 1-3, regex or function). Order = learning roadmap order.
 TOPICS = [
-    ("Variables & Data Types", 1, r"\btype\(|\bint\(|\bfloat\(|\bbool\("),
+    ("Variables & Data Types", 1, r"\btype\(|\bint\(|\bfloat\(|\bbool\(|\bstr\("),
     ("User Input", 1, r"\binput\("),
-    ("Operators & Math", 1, r"\*\*|//|%|\bmath\.|\bdivmod\(|\bround\("),
+    ("Operators & Math", 1, r"\*\*|//|%|\bmath\.|\bdivmod\(|\bround\(|\babs\("),
     ("Conditionals", 1, r"^\s*(if|elif)\b"),
-    ("Strings", 1, r"\.(upper|lower|split|join|replace|strip|find|title|startswith|endswith|format)\(|\bf[\"']"),
+    ("Strings", 1, r"\.(upper|lower|split|join|replace|strip|find|title|startswith|endswith|format)\(|\bf[\"']|\[::-1\]"),
     ("Loops", 1, r"^\s*(for|while)\b"),
-    ("Lists", 2, r"\.(append|extend|insert|remove|pop|sort|reverse)\(|\blist\(|\bsorted\("),
+    ("Number Logic", 2, r"%\s*10\b|//=?\s*10\b|(?i:factorial|prime|fibonacci|palindrome|armstrong|gcd|lcm|divisor|factor)"),
+    ("Lists", 2, r"\.(append|extend|insert|remove|pop|sort|reverse)\(|\blist\(|\bsorted\(|range\(len\(|\w\[(?![\"'])[^\]]+\]"),
+    ("Frequency & Counting", 2, r"(?i)\bfreq|\bcount\w*(\[[^\]]*\])?\s*\+=\s*1|\.count\("),
     ("Tuples", 2, r"\btuple\(|^\s*\w+\s*=\s*\([^)]*,[^)]*\)"),
     ("Sets", 2, r"\bset\(|\.(add|union|intersection|difference|discard)\("),
-    ("Dictionaries", 2, r"\.(items|keys|values|get|update|setdefault)\(|\bdict\(|^\s*\w+\s*=\s*\{.*:"),
+    ("Dictionaries", 2, r"\.(items|keys|values|get|update|setdefault)\(|\bdict\(|=\s*\{|\[\{|\w\[[\"'][^\"']+[\"']\]"),
     ("Nested Loops", 2, has_nested_loop),
     ("Comprehensions", 2, r"\[[^\]\n]+\bfor\b[^\]\n]+\bin\b|\{[^}\n]+\bfor\b[^}\n]+\bin\b"),
     ("Functions", 2, r"^\s*def\s+\w+"),
@@ -65,13 +67,42 @@ TOPICS = [
 LEVELS = {1: ("Beginner", "brightgreen", "🟢"),
           2: ("Intermediate", "yellow", "🟡"),
           3: ("Advanced", "red", "🔴")}
+DIFF = {"Easy": ("Easy", "brightgreen", "🟢"),
+        "Medium": ("Medium", "yellow", "🟡"),
+        "Hard": ("Hard", "red", "🔴")}
+# basic topics that appear in almost every solution; used only when picking "current topic"
+GENERIC = {"Variables & Data Types", "User Input", "Operators & Math",
+           "Conditionals", "Loops", "Functions"}
+# input-reading lines are ignored for topic detection (they show up in every cell)
+BOILER = re.compile(r"input\(|\[\s*int\(\s*\w+\s*\)\s*for\s+\w+\s+in\s+\w+\s*\]")
 
 def matches(check, code):
     return check(code) if callable(check) else re.search(check, code, re.M) is not None
 
-def clean(code):
+def no_comments(code):
     return "\n".join(l for l in code.splitlines()
                      if l.strip() and not l.strip().startswith(("#", "%", "!")))
+
+def clean(code):
+    return "\n".join(l for l in no_comments(code).splitlines() if not BOILER.search(l))
+
+def comment_meta(src):
+    """Reads the title and difficulty (Easy/Medium/Hard) from a cell's comment lines."""
+    title, diff = None, None
+    for l in src.splitlines():
+        s = l.strip()
+        if not s.startswith("#"):
+            continue
+        text = s.lstrip("#").strip()
+        if not text:
+            continue
+        if title is None:
+            m = re.match(r"Q\s*\d+\s*[:.]\s*(?:\d+\.\s*)?(.+)", text)
+            title = (m.group(1) if m else text)[:70].strip()
+        found = re.findall(r"\b(Easy|Medium|Hard)\b", text, re.I)
+        if found:
+            diff = max((f.capitalize() for f in found), key=["Easy", "Medium", "Hard"].index)
+    return title, diff
 
 def git_time(path):
     r = subprocess.run(["git", "log", "-1", "--format=%ct", "--", path],
@@ -109,13 +140,18 @@ def status(n):
     return ("⬜ Not started" if n == 0 else "🟡 Started" if n < 3
             else "🟠 Practicing" if n < 8 else "🟢 Strong")
 
+def pick_topic(hits):
+    specific = [i for i in hits if TOPICS[i][0] not in GENERIC]
+    return max(specific or hits)
+
 # ---------- analyse notebooks ----------
 counts = {t[0]: 0 for t in TOPICS}
-nb_info = []            # (file name, code cells, last topic index, last heading)
+diff_mix = {"Easy": 0, "Medium": 0, "Hard": 0}
+nb_info = []   # (file name, code cells, last topic index, last title, last difficulty)
 for path in sorted(glob.glob(f"{NB_DIR}/*.ipynb"), key=git_time):
     with open(path, encoding="utf-8") as f:
         nb = json.load(f)
-    code_cells, last_hit, last_title = 0, None, None
+    code_cells, last_hit, last_title, last_diff = 0, None, None, None
     for c in nb.get("cells", []):
         src = c.get("source", "")
         src = "".join(src) if isinstance(src, list) else src
@@ -127,24 +163,38 @@ for path in sorted(glob.glob(f"{NB_DIR}/*.ipynb"), key=git_time):
         if c.get("cell_type") != "code" or "userdata.get" in src:
             continue
         code = clean(src)
-        if not code:
+        raw = no_comments(src)
+        if not raw:
             continue
         code_cells += 1
-        hit = [i for i, t in enumerate(TOPICS) if matches(t[2], code)]
+        title, diff = comment_meta(src)
+        if title:
+            last_title = title
+        if diff:
+            last_diff = diff
+            diff_mix[diff] += 1
+        hit = [i for i, t in enumerate(TOPICS)
+               if matches(t[2], raw if t[0] == "User Input" else code)]
         for i in hit:
             counts[TOPICS[i][0]] += 1
-        if hit:
-            last_hit = max(hit)
-    nb_info.append((path.split("/")[-1], code_cells, last_hit, last_title))
+        real = [i for i in hit if TOPICS[i][0] != "User Input"]
+        if real:
+            last_hit = pick_topic(real)
+    nb_info.append((path.split("/")[-1], code_cells, last_hit, last_title, last_diff))
 
-latest = next(((i, t) for _, _, i, t in reversed(nb_info) if i is not None), None)
+latest = next((n for n in reversed(nb_info) if n[2] is not None), None)
 if latest:
-    idx, latest_title = latest
+    idx, latest_title, latest_diff = latest[2], latest[3], latest[4]
     latest_name, lvl = TOPICS[idx][0], TOPICS[idx][1]
 else:
-    latest_name, lvl, latest_title = "Getting started", 1, None
+    latest_name, lvl, latest_title, latest_diff = "Getting started", 1, None, None
+newest = nb_info[-1] if nb_info else None
+if newest and newest[3]:
+    latest_title = newest[3]          # newest notebook's latest question, even if unsolved
+if newest and newest[4]:
+    latest_diff = newest[4]
 latest_title = latest_title or latest_name
-lvl_name, lvl_color, lvl_emoji = LEVELS[lvl]
+lvl_name, lvl_color, lvl_emoji = DIFF[latest_diff] if latest_diff else LEVELS[lvl]
 
 days = practice_days()
 cur_streak = streak(days)
@@ -159,8 +209,13 @@ for name, level, _ in TOPICS:
 
 pie = "\n".join(f'    "{n}" : {c}' for n, c in counts.items() if c) or '    "No data yet" : 1'
 
+mix = ""
+if sum(diff_mix.values()):
+    mix = ("**Question difficulty mix:** "
+           + " · ".join(f"{DIFF[k][2]} {k} {v}" for k, v in diff_mix.items()))
+
 nb_rows = []
-for fname, cells, _, _ in nb_info:
+for fname, cells, _, _, _ in nb_info:
     q = quote(fname)
     colab = f"https://colab.research.google.com/github/{USER}/{REPO}/blob/main/{NB_DIR}/{q}"
     nb_rows.append(f"| [{fname}]({NB_DIR}/{q}) | {cells} | "
@@ -174,7 +229,7 @@ now = datetime.datetime.now(datetime.timezone.utc).strftime("%d %b %Y, %H:%M UTC
 readme = f"""{visuals.header(NAME, latest_name, lvl_name, cur_streak)}
 
 <p align="center">
-{badge("Level", lvl_name, lvl_color, "python")}
+{badge("Difficulty", lvl_name, lvl_color, "python")}
 {badge("Topics", f"{covered} of {len(TOPICS)}", "blue")}
 {badge("Streak", f"{cur_streak} days", "orange")}
 {badge("Days practiced", len(days), "success")}
@@ -182,7 +237,7 @@ readme = f"""{visuals.header(NAME, latest_name, lvl_name, cur_streak)}
 
 ## 📊 Live Dashboard
 
-| 🎯 Current topic | 📈 Level | 📝 Latest section | 🔥 Streak | 🗓️ Days practiced | 🧮 Code cells |
+| 🎯 Current topic | 📈 Difficulty | 📝 Latest question | 🔥 Streak | 🗓️ Days practiced | 🧮 Code cells |
 |---|---|---|---|---|---|
 | **{latest_name}** | {lvl_emoji} {lvl_name} | {latest_title} | {cur_streak} days | {len(days)} | {total_cells} |
 
@@ -197,6 +252,8 @@ readme = f"""{visuals.header(NAME, latest_name, lvl_name, cur_streak)}
 | Level | Topic | Practice depth | Cells | Status |
 |---|---|---|---|---|
 {chr(10).join(rows)}
+
+{mix}
 
 ## 🥧 Practice Distribution
 
