@@ -5,7 +5,7 @@ import visuals
 
 USER = "Phantom2101"
 REPO = "Python-Daily-Practicee"
-NAME = "Phantom"            # EDIT: name shown in the title
+NAME = "Affan"            # EDIT: name shown in the title
 NB_DIR = "notebooks"
 
 def has_nested_loop(code):
