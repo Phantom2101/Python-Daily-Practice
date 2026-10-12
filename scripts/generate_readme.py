@@ -1,6 +1,7 @@
 """Builds README.md from the practice notebooks. Run by GitHub Actions."""
 import json, re, glob, subprocess, datetime
 from urllib.parse import quote
+import visuals
 
 USER = "Phantom2101"
 REPO = "Python-Daily-Practicee"
@@ -164,10 +165,11 @@ for fname, cells, _, _ in nb_info:
     nb_rows.append(f"| [{fname}]({NB_DIR}/{q}) | {cells} | "
                    f"[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]({colab}) |")
 
+series = visuals.history(NB_DIR)
+growth_note = visuals.write_growth(series)
 now = datetime.datetime.now(datetime.timezone.utc).strftime("%d %b %Y, %H:%M UTC")
 
-readme = f"""<h1 align="center">🐍 {NAME}'s Python Practice Journey</h1>
-<p align="center"><i>Learning in public: daily Colab practice, tracked automatically.</i></p>
+{visuals.header(NAME, latest_name, lvl_name, cur_streak)}
 
 <p align="center">
 {badge("Level", lvl_name, lvl_color, "python")}
@@ -181,6 +183,12 @@ readme = f"""<h1 align="center">🐍 {NAME}'s Python Practice Journey</h1>
 | 🎯 Current topic | 📈 Level | 📝 Latest section | 🔥 Streak | 🗓️ Days practiced | 🧮 Code cells |
 |---|---|---|---|---|---|
 | **{latest_name}** | {lvl_emoji} {lvl_name} | {latest_title} | {cur_streak} days | {len(days)} | {total_cells} |
+
+## 📈 Learning Growth
+
+<img src="assets/growth.svg" alt="Learning growth" width="100%"/>
+
+{growth_note}
 
 ## 🗺️ Topic Roadmap
 
