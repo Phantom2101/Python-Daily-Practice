@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 300" width="100%"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#141b2d"/></linearGradient><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00f7ff" stop-opacity="0.35"/><stop offset="1" stop-color="#00f7ff" stop-opacity="0"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><style>
+.line{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 2.5s ease-out forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.area{opacity:0;animation:fade 1.5s 1.5s forwards}
+@keyframes fade{to{opacity:1}}
+.pulse{animation:pulse 1.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{50%{transform:scale(1.9);opacity:.35}}
+text{font-family:monospace;fill:#8b9bb4;font-size:12px}
+.title{fill:#e6f1ff;font-size:15px;font-weight:bold}
+</style><rect width="820" height="300" rx="14" fill="url(#bg)"/><text class="title" x="55" y="32">Learning growth: total code cells over time</text><text class="pulse" x="410.0" y="150.0" text-anchor="middle" style="fill:#00f7ff;font-size:16px">Growth chart unlocks after your 2nd practice day</text></svg>

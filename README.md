@@ -1,5 +1,9 @@
-<h1 align="center">🐍 Phantom's Python Practice Journey</h1>
-<p align="center"><i>Learning in public: daily Colab practice, tracked automatically.</i></p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:00f7ff,100:7b2ff7&text=Python+Practice+Journey&fontColor=ffffff&fontSize=44&animation=fadeIn&fontAlignY=38&desc=Phantom%27s+learning+log&descAlignY=58&descSize=18" width="100%" alt="header"/>
+</p>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Currently+learning%3A+Comprehensions;Level%3A+Intermediate;Streak%3A+1+days;Showing+up+every+day" alt="typing"/>
+</p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Level-Intermediate-yellow?style=for-the-badge&logo=python&logoColor=white" alt="Level"/>
@@ -13,6 +17,12 @@
 | 🎯 Current topic | 📈 Level | 📝 Latest section | 🔥 Streak | 🗓️ Days practiced | 🧮 Code cells |
 |---|---|---|---|---|---|
 | **Comprehensions** | 🟡 Intermediate | Comprehensions | 1 days | 1 | 44 |
+
+## 📈 Learning Growth
+
+<img src="assets/growth.svg" alt="Learning growth" width="100%"/>
+
+_The growth graph fills in as you practice on more days._
 
 ## 🗺️ Topic Roadmap
 
@@ -75,4 +85,4 @@ pie showData title Practice cells per topic
 </p>
 
 ---
-<sub>Auto-generated on 12 Oct 2026, 08:49 UTC by GitHub Actions from the notebooks in this repo.</sub>
+<sub>Auto-generated on 12 Oct 2026, 09:04 UTC by GitHub Actions from the notebooks in this repo.</sub>
