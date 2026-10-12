@@ -2,6 +2,7 @@
 import json, re, glob, subprocess, datetime
 from urllib.parse import quote
 import visuals
+import platforms
 
 USER = "Phantom2101"
 REPO = "Python-Daily-Practicee"
@@ -167,6 +168,7 @@ for fname, cells, _, _ in nb_info:
 
 series = visuals.history(NB_DIR)
 growth_note = visuals.write_growth(series)
+platforms_md = platforms.build()
 now = datetime.datetime.now(datetime.timezone.utc).strftime("%d %b %Y, %H:%M UTC")
 
 readme = f"""{visuals.header(NAME, latest_name, lvl_name, cur_streak)}
@@ -208,6 +210,8 @@ pie showData title Practice cells per topic
 | Notebook | Code cells | Run it |
 |---|---|---|
 {chr(10).join(nb_rows)}
+
+{platforms_md}
 
 ## 🔥 Activity
 
