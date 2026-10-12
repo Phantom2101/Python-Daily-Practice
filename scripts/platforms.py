@@ -91,28 +91,36 @@ def fetch_hackerrank(history, info):
     d = _hr(f"hackers/{HR_USER}/badges")
     badges = [{"name": m.get("badge_name"), "stars": int(m.get("stars") or 0),
                "solved": m.get("solved")} for m in d.get("models", [])]
+    print("HR badges:", [(b["name"], b["solved"]) for b in badges])
     cursor = ""
-    for _ in range(3):                              # up to 3 pages of recent challenges
+    for page in range(3):                           # up to 3 pages of recent challenges
         r = _hr(f"hackers/{HR_USER}/recent_challenges?limit=20&cursor={cursor}&response_type=recent")
-        for m in r.get("models", []):
-            slug = m.get("ch_slug")
+        models = r.get("models", [])
+        print(f"HR recent page {page}: {len(models)} challenges; keys:",
+              list(models[0].keys())[:12] if models else "none")
+        for m in models:
+            slug = m.get("ch_slug") or m.get("slug")
             if not slug:
+                print("HR skipped, no slug:", list(m.keys())[:12])
                 continue
             ts = _ts(m.get("created_at"))
             if slug in history:
                 history[slug]["ts"] = max(history[slug]["ts"], ts)
                 continue
-            if slug not in info:
+            if slug not in info or not info[slug].get("track"):    # retry failed lookups
                 try:
                     model = _hr(f"contests/master/challenges/{slug}").get("model", {})
                     info[slug] = {"difficulty": (model.get("difficulty_name") or "?").capitalize(),
                                   "track": (model.get("track") or {}).get("name", ""),
                                   "title": model.get("name") or m.get("name") or slug}
-                except Exception:
+                    print("HR detail:", slug, info[slug]["track"], info[slug]["difficulty"])
+                except Exception as e:
+                    print("HR detail failed:", slug, repr(e))
                     info[slug] = {"difficulty": "?", "track": "", "title": m.get("name") or slug}
                 time.sleep(0.3)
             c = info[slug]
             if HR_ONLY_PYTHON and "python" not in (c["track"] or "").lower():
+                print("HR skipped, track is not Python:", slug, repr(c["track"]))
                 continue
             history[slug] = {"title": c["title"], "difficulty": c["difficulty"], "ts": ts}
         cursor = r.get("cursor") or ""
