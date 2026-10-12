@@ -182,6 +182,28 @@ _Difficulty bars count the problems listed below; the big number comes from your
 <p align="center">
   <img src="https://raw.githubusercontent.com/Phantom2101/Python-Daily-Practice/output/github-snake-dark.svg" alt="GitHub contribution snake animation" width="100%"/>
 </p>
+## 🚀 How to Use This Repository
+
+You can explore my Python learning journey in the following ways:
+
+* **Browse notebooks:** Open the notebooks to see my daily practice, exercises, code examples, and experiments.
+* **Run online:** Use the available Google Colab links to open supported notebooks without installing Python locally.
+* **Run locally:** Clone this repository and open the notebooks using Jupyter Notebook or JupyterLab.
+* **Track my progress:** Explore the dashboard and charts to see my topic coverage and practice activity.
+* **Follow my journey:** Check back regularly as I continue adding exercises and learning new Python concepts.
+
+### Run Locally
+
+1. Clone the repository:
+   `git clone https://github.com/Phantom2101/Python-Daily-Practice.git`
+2. Enter the project directory:
+   `cd Python-Daily-Practice`
+3. Install Jupyter:
+   `python -m pip install notebook`
+4. Start Jupyter Notebook:
+   `jupyter notebook`
+
+Open a notebook and run its cells to explore the exercises.
 
 ---
 
