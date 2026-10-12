@@ -2,21 +2,21 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:00f7ff,100:7b2ff7&text=Python+Practice+Journey&fontColor=ffffff&fontSize=44&animation=fadeIn&fontAlignY=38&desc=Affan%27s+learning+log&descAlignY=58&descSize=18" width="100%" alt="header"/>
 </p>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Currently+learning%3A+Comprehensions;Level%3A+Intermediate;Streak%3A+1+days;Showing+up+every+day" alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Currently+learning%3A+Lists;Level%3A+Medium;Streak%3A+1+days;Showing+up+every+day" alt="typing"/>
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/Level-Intermediate-yellow?style=for-the-badge&logo=python&logoColor=white" alt="Level"/>
-<img src="https://img.shields.io/badge/Topics-11%20of%2022-blue?style=for-the-badge" alt="Topics"/>
+<img src="https://img.shields.io/badge/Difficulty-Medium-yellow?style=for-the-badge&logo=python&logoColor=white" alt="Difficulty"/>
+<img src="https://img.shields.io/badge/Topics-13%20of%2024-blue?style=for-the-badge" alt="Topics"/>
 <img src="https://img.shields.io/badge/Streak-1%20days-orange?style=for-the-badge" alt="Streak"/>
 <img src="https://img.shields.io/badge/Days%20practiced-1-success?style=for-the-badge" alt="Days practiced"/>
 </p>
 
 ## 📊 Live Dashboard
 
-| 🎯 Current topic | 📈 Level | 📝 Latest section | 🔥 Streak | 🗓️ Days practiced | 🧮 Code cells |
+| 🎯 Current topic | 📈 Difficulty | 📝 Latest question | 🔥 Streak | 🗓️ Days practiced | 🧮 Code cells |
 |---|---|---|---|---|---|
-| **Comprehensions** | 🟡 Intermediate | Comprehensions | 1 days | 1 | 44 |
+| **Lists** | 🟡 Medium | Two Sum | 1 days | 1 | 44 |
 
 ## 📈 Learning Growth
 
@@ -28,18 +28,20 @@ _The growth graph fills in as you practice on more days._
 
 | Level | Topic | Practice depth | Cells | Status |
 |---|---|---|---|---|
-| 🟢 Beginner | Variables & Data Types | `██████████` | 34 | 🟢 Strong |
+| 🟢 Beginner | Variables & Data Types | `██░░░░░░░░` | 2 | 🟡 Started |
 | 🟢 Beginner | User Input | `██████████` | 35 | 🟢 Strong |
 | 🟢 Beginner | Operators & Math | `██████████` | 16 | 🟢 Strong |
 | 🟢 Beginner | Conditionals | `██████████` | 34 | 🟢 Strong |
-| 🟢 Beginner | Strings | `██████████` | 22 | 🟢 Strong |
+| 🟢 Beginner | Strings | `█████████░` | 7 | 🟠 Practicing |
 | 🟢 Beginner | Loops | `██████████` | 33 | 🟢 Strong |
-| 🟡 Intermediate | Lists | `██████████` | 14 | 🟢 Strong |
+| 🟡 Intermediate | Number Logic | `██████████` | 10 | 🟢 Strong |
+| 🟡 Intermediate | Lists | `██████████` | 20 | 🟢 Strong |
+| 🟡 Intermediate | Frequency & Counting | `██████████` | 8 | 🟢 Strong |
 | 🟡 Intermediate | Tuples | `░░░░░░░░░░` | 0 | ⬜ Not started |
 | 🟡 Intermediate | Sets | `░░░░░░░░░░` | 0 | ⬜ Not started |
-| 🟡 Intermediate | Dictionaries | `████░░░░░░` | 3 | 🟠 Practicing |
+| 🟡 Intermediate | Dictionaries | `█████████░` | 7 | 🟠 Practicing |
 | 🟡 Intermediate | Nested Loops | `████████░░` | 6 | 🟠 Practicing |
-| 🟡 Intermediate | Comprehensions | `██████████` | 21 | 🟢 Strong |
+| 🟡 Intermediate | Comprehensions | `████░░░░░░` | 3 | 🟠 Practicing |
 | 🟡 Intermediate | Functions | `██████████` | 29 | 🟢 Strong |
 | 🟡 Intermediate | Lambda, Map & Filter | `░░░░░░░░░░` | 0 | ⬜ Not started |
 | 🟡 Intermediate | Error Handling | `░░░░░░░░░░` | 0 | ⬜ Not started |
@@ -51,20 +53,24 @@ _The growth graph fills in as you practice on more days._
 | 🔴 Advanced | Pandas | `░░░░░░░░░░` | 0 | ⬜ Not started |
 | 🔴 Advanced | Visualization | `░░░░░░░░░░` | 0 | ⬜ Not started |
 
+**Question difficulty mix:** 🟢 Easy 0 · 🟡 Medium 8 · 🔴 Hard 0
+
 ## 🥧 Practice Distribution
 
 ```mermaid
 pie showData title Practice cells per topic
-    "Variables & Data Types" : 34
+    "Variables & Data Types" : 2
     "User Input" : 35
     "Operators & Math" : 16
     "Conditionals" : 34
-    "Strings" : 22
+    "Strings" : 7
     "Loops" : 33
-    "Lists" : 14
-    "Dictionaries" : 3
+    "Number Logic" : 10
+    "Lists" : 20
+    "Frequency & Counting" : 8
+    "Dictionaries" : 7
     "Nested Loops" : 6
-    "Comprehensions" : 21
+    "Comprehensions" : 3
     "Functions" : 29
 ```
 
@@ -118,4 +124,4 @@ pie showData title Practice cells per topic
 </p>
 
 ---
-<sub>Auto-generated on 12 Oct 2026, 09:32 UTC by GitHub Actions from the notebooks in this repo.</sub>
+<sub>Auto-generated on 12 Oct 2026, 09:49 UTC by GitHub Actions from the notebooks in this repo.</sub>
