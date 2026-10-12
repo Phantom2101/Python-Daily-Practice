@@ -101,17 +101,15 @@ pie showData title Practice cells per topic
 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | 21 Jan 2026 |
 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | 21 Jan 2026 |
 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium | 21 Jan 2026 |
+| [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | 21 Jan 2026 |
 
-### 🟢 HackerRank: [@affankotwal](https://www.hackerrank.com/profile/affankotwal)
+### 🟢 HackerRank (Python): [@affankotwal](https://www.hackerrank.com/profile/affankotwal)
 
-| Badge | Stars | Solved |
-|---|---|---|
-| Problem Solving | ⭐⭐ | 11 |
-| C++ | ⭐⭐⭐⭐⭐ | 18 |
-| Java | ⭐⭐⭐ | 13 |
-| Python | ⭐⭐ | 9 |
-| C | ⭐⭐⭐⭐ | 17 |
+<img src="assets/hackerrank.svg" alt="HackerRank Python stats" width="100%"/>
 
+_Difficulty bars count the problems listed below; the big number comes from your Python badge._
+
+_No solved problems yet. Your first one will appear here automatically._
 
 
 ## 🔥 Activity
@@ -124,4 +122,4 @@ pie showData title Practice cells per topic
 </p>
 
 ---
-<sub>Auto-generated on 12 Oct 2026, 09:49 UTC by GitHub Actions from the notebooks in this repo.</sub>
+<sub>Auto-generated on 12 Oct 2026, 09:59 UTC by GitHub Actions from the notebooks in this repo.</sub>

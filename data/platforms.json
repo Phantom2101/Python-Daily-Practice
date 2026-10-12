@@ -6,75 +6,6 @@
       "Medium": 10,
       "Hard": 3
     },
-    "total": {
-      "All": 4081,
-      "Easy": 971,
-      "Medium": 2128,
-      "Hard": 982
-    },
-    "recent": [
-      {
-        "title": "Longest Common Prefix",
-        "slug": "longest-common-prefix",
-        "difficulty": "Easy",
-        "ts": 1769530725
-      },
-      {
-        "title": "Remove K Digits",
-        "slug": "remove-k-digits",
-        "difficulty": "Medium",
-        "ts": 1768991264
-      },
-      {
-        "title": "Sort Colors",
-        "slug": "sort-colors",
-        "difficulty": "Medium",
-        "ts": 1768991127
-      },
-      {
-        "title": "Container With Most Water",
-        "slug": "container-with-most-water",
-        "difficulty": "Medium",
-        "ts": 1768990468
-      },
-      {
-        "title": "Regular Expression Matching",
-        "slug": "regular-expression-matching",
-        "difficulty": "Hard",
-        "ts": 1768988976
-      },
-      {
-        "title": "Palindrome Number",
-        "slug": "palindrome-number",
-        "difficulty": "Easy",
-        "ts": 1768984649
-      },
-      {
-        "title": "String to Integer (atoi)",
-        "slug": "string-to-integer-atoi",
-        "difficulty": "Medium",
-        "ts": 1768984365
-      },
-      {
-        "title": "Reverse Integer",
-        "slug": "reverse-integer",
-        "difficulty": "Medium",
-        "ts": 1768983719
-      },
-      {
-        "title": "Median of Two Sorted Arrays",
-        "slug": "median-of-two-sorted-arrays",
-        "difficulty": "Hard",
-        "ts": 1768971852
-      },
-      {
-        "title": "Longest Substring Without Repeating Characters",
-        "slug": "longest-substring-without-repeating-characters",
-        "difficulty": "Medium",
-        "ts": 1768969683
-      }
-    ],
-    "current": "Medium",
     "ranking": 4426064
   },
   "leetcode_synced": "12 Oct 2026",
@@ -105,8 +36,367 @@
         "stars": 4,
         "solved": 17
       }
-    ],
-    "source": "auto"
+    ]
   },
-  "hackerrank_synced": "12 Oct 2026"
+  "hackerrank_synced": "12 Oct 2026",
+  "lc_history": {
+    "longest-common-prefix": {
+      "title": "Longest Common Prefix",
+      "difficulty": "Easy",
+      "ts": 1769530725
+    },
+    "remove-k-digits": {
+      "title": "Remove K Digits",
+      "difficulty": "Medium",
+      "ts": 1768991264
+    },
+    "sort-colors": {
+      "title": "Sort Colors",
+      "difficulty": "Medium",
+      "ts": 1768991127
+    },
+    "container-with-most-water": {
+      "title": "Container With Most Water",
+      "difficulty": "Medium",
+      "ts": 1768990468
+    },
+    "regular-expression-matching": {
+      "title": "Regular Expression Matching",
+      "difficulty": "Hard",
+      "ts": 1768988976
+    },
+    "palindrome-number": {
+      "title": "Palindrome Number",
+      "difficulty": "Easy",
+      "ts": 1768984649
+    },
+    "string-to-integer-atoi": {
+      "title": "String to Integer (atoi)",
+      "difficulty": "Medium",
+      "ts": 1768984365
+    },
+    "reverse-integer": {
+      "title": "Reverse Integer",
+      "difficulty": "Medium",
+      "ts": 1768983719
+    },
+    "median-of-two-sorted-arrays": {
+      "title": "Median of Two Sorted Arrays",
+      "difficulty": "Hard",
+      "ts": 1768971852
+    },
+    "longest-substring-without-repeating-characters": {
+      "title": "Longest Substring Without Repeating Characters",
+      "difficulty": "Medium",
+      "ts": 1768969683
+    },
+    "two-sum": {
+      "title": "Two Sum",
+      "difficulty": "Easy",
+      "ts": 1768969132
+    }
+  },
+  "hr_history": {},
+  "hr_challenge_info": {
+    "find-second-maximum-number-in-a-list": {
+      "difficulty": "Easy",
+      "track": "Basic Data Types",
+      "title": "Find the Runner-Up Score!  "
+    },
+    "list-comprehensions": {
+      "difficulty": "Easy",
+      "track": "Basic Data Types",
+      "title": "List Comprehensions"
+    },
+    "python-print": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Print Function"
+    },
+    "write-a-function": {
+      "difficulty": "Medium",
+      "track": "Introduction",
+      "title": "Write a function"
+    },
+    "python-loops": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Loops"
+    },
+    "python-division": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Python: Division"
+    },
+    "python-arithmetic-operators": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Arithmetic Operators"
+    },
+    "py-if-else": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Python If-Else"
+    },
+    "py-hello-world": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Say \"Hello, World!\" With Python"
+    },
+    "java-date-and-time": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Java Date and Time"
+    },
+    "java-inheritance-2": {
+      "difficulty": "Easy",
+      "track": "Object Oriented Programming",
+      "title": "Java Inheritance II"
+    },
+    "java-inheritance-1": {
+      "difficulty": "Easy",
+      "track": "Object Oriented Programming",
+      "title": "Java Inheritance I"
+    },
+    "time-conversion": {
+      "difficulty": "Easy",
+      "track": "Warmup",
+      "title": "Time Conversion"
+    },
+    "java-int-to-string": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Java Int to String"
+    },
+    "mini-max-sum": {
+      "difficulty": "Easy",
+      "track": "Warmup",
+      "title": "Mini-Max Sum"
+    },
+    "2d-array": {
+      "difficulty": "Easy",
+      "track": "Arrays",
+      "title": "2D Array - DS"
+    },
+    "arrays-ds": {
+      "difficulty": "Easy",
+      "track": "Arrays",
+      "title": "Arrays - DS"
+    },
+    "java-strings-introduction": {
+      "difficulty": "Easy",
+      "track": "Strings",
+      "title": "Java Strings Introduction"
+    },
+    "java-static-initializer-block": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Java Static Initializer Block"
+    },
+    "java-end-of-file": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Java End-of-file"
+    },
+    "java-datatypes": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Java Datatypes"
+    },
+    "java-loops": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Java Loops II"
+    },
+    "java-loops-i": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Java Loops I"
+    },
+    "java-output-formatting": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Java Output Formatting"
+    },
+    "java-stdin-stdout": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Java Stdin and Stdout II"
+    },
+    "java-if-else": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Java If-Else"
+    },
+    "java-stdin-and-stdout-1": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": " Java Stdin and Stdout I"
+    },
+    "welcome-to-java": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Welcome to Java!"
+    },
+    "permutations-of-strings": {
+      "difficulty": "Medium",
+      "track": "Functions",
+      "title": "Permutations of Strings"
+    },
+    "sorting-array-of-strings": {
+      "difficulty": "Hard",
+      "track": "Functions",
+      "title": "Sorting Array of Strings"
+    },
+    "students-marks-sum": {
+      "difficulty": "Easy",
+      "track": "Functions",
+      "title": "Students Marks Sum"
+    },
+    "rectangle-area": {
+      "difficulty": "Easy",
+      "track": "Inheritance",
+      "title": "Rectangle Area"
+    },
+    "inheritance-introduction": {
+      "difficulty": "Easy",
+      "track": "Inheritance",
+      "title": "Inheritance Introduction"
+    },
+    "box-it": {
+      "difficulty": "Easy",
+      "track": "Classes",
+      "title": "Box It!"
+    },
+    "classes-objects": {
+      "difficulty": "Easy",
+      "track": "Classes",
+      "title": "Classes and Objects"
+    },
+    "c-tutorial-struct": {
+      "difficulty": "Easy",
+      "track": "Classes",
+      "title": "Structs"
+    },
+    "multi-level-inheritance-cpp": {
+      "difficulty": "Easy",
+      "track": "Inheritance",
+      "title": "Multi Level Inheritance "
+    },
+    "inherited-code": {
+      "difficulty": "Medium",
+      "track": "Classes",
+      "title": "Inherited Code"
+    },
+    "c-tutorial-strings": {
+      "difficulty": "Easy",
+      "track": "Strings",
+      "title": "Strings"
+    },
+    "c-tutorial-stringstream": {
+      "difficulty": "Easy",
+      "track": "Strings",
+      "title": "StringStream"
+    },
+    "recursion-in-c": {
+      "difficulty": "Easy",
+      "track": "Functions",
+      "title": "Calculate the Nth term"
+    },
+    "c-tutorial-class": {
+      "difficulty": "Easy",
+      "track": "Classes",
+      "title": "Class"
+    },
+    "c-tutorial-pointer": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Pointer"
+    },
+    "staircase": {
+      "difficulty": "Easy",
+      "track": "Warmup",
+      "title": "Staircase"
+    },
+    "plus-minus": {
+      "difficulty": "Easy",
+      "track": "Warmup",
+      "title": "Plus Minus"
+    },
+    "frequency-of-digits-1": {
+      "difficulty": "Medium",
+      "track": "Arrays and Strings",
+      "title": "Digit Frequency"
+    },
+    "printing-tokens-": {
+      "difficulty": "Medium",
+      "track": "Arrays and Strings",
+      "title": "Printing Tokens"
+    },
+    "reverse-array-c": {
+      "difficulty": "Medium",
+      "track": "Arrays and Strings",
+      "title": "Array Reversal"
+    },
+    "1d-arrays-in-c": {
+      "difficulty": "Medium",
+      "track": "Arrays and Strings",
+      "title": "1D Arrays in C"
+    },
+    "variable-sized-arrays": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Variable Sized Arrays"
+    },
+    "arrays-introduction": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Arrays Introduction"
+    },
+    "c-tutorial-functions": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Functions"
+    },
+    "c-tutorial-for-loop": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "For Loop"
+    },
+    "c-tutorial-conditional-if-else": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Conditional Statements"
+    },
+    "c-tutorial-basic-data-types": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Basic Data Types"
+    },
+    "cpp-input-and-output": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Input and Output"
+    },
+    "cpp-hello-world": {
+      "difficulty": "Easy",
+      "track": "Introduction",
+      "title": "Say \"Hello, World!\" With C++"
+    },
+    "diagonal-difference": {
+      "difficulty": "Easy",
+      "track": "Warmup",
+      "title": "Diagonal Difference"
+    },
+    "a-very-big-sum": {
+      "difficulty": "Easy",
+      "track": "Warmup",
+      "title": "A Very Big Sum"
+    },
+    "compare-the-triplets": {
+      "difficulty": "Easy",
+      "track": "Warmup",
+      "title": "Compare the Triplets"
+    }
+  }
 }
