@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:00f7ff,100:7b2ff7&text=Python+Practice+Journey&fontColor=ffffff&fontSize=44&animation=fadeIn&fontAlignY=38&desc=Affan%27s+learning+log&descAlignY=58&descSize=18" width="100%" alt="header"/>
 </p>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Currently+learning%3A+Lists;Level%3A+Medium;Streak%3A+1+days;Showing+up+every+day" alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Currently+learning%3A+Nested+Loops;Level%3A+Medium;Streak%3A+1+days;Showing+up+every+day" alt="typing"/>
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 | 🎯 Current topic | 📈 Difficulty | 📝 Latest question | 🔥 Streak | 🗓️ Days practiced | 🧮 Code cells |
 |---|---|---|---|---|---|
-| **Lists** | 🟡 Medium | Two Sum | 1 days | 1 | 44 |
+| **Nested Loops** | 🟡 Medium | Two Sum | 1 days | 1 | 44 |
 
 ## 📈 Learning Growth
 
@@ -28,21 +28,21 @@ _The growth graph fills in as you practice on more days._
 
 | Level | Topic | Practice depth | Cells | Status |
 |---|---|---|---|---|
-| 🟢 Beginner | Variables & Data Types | `██░░░░░░░░` | 2 | 🟡 Started |
+| 🟢 Beginner | Variables & Data Types | `████░░░░░░` | 3 | 🟠 Practicing |
 | 🟢 Beginner | User Input | `██████████` | 35 | 🟢 Strong |
 | 🟢 Beginner | Operators & Math | `██████████` | 16 | 🟢 Strong |
-| 🟢 Beginner | Conditionals | `██████████` | 34 | 🟢 Strong |
+| 🟢 Beginner | Conditionals | `██████████` | 35 | 🟢 Strong |
 | 🟢 Beginner | Strings | `█████████░` | 7 | 🟠 Practicing |
-| 🟢 Beginner | Loops | `██████████` | 33 | 🟢 Strong |
+| 🟢 Beginner | Loops | `██████████` | 34 | 🟢 Strong |
 | 🟡 Intermediate | Number Logic | `██████████` | 10 | 🟢 Strong |
-| 🟡 Intermediate | Lists | `██████████` | 20 | 🟢 Strong |
+| 🟡 Intermediate | Lists | `██████████` | 21 | 🟢 Strong |
 | 🟡 Intermediate | Frequency & Counting | `██████████` | 8 | 🟢 Strong |
 | 🟡 Intermediate | Tuples | `░░░░░░░░░░` | 0 | ⬜ Not started |
 | 🟡 Intermediate | Sets | `░░░░░░░░░░` | 0 | ⬜ Not started |
 | 🟡 Intermediate | Dictionaries | `█████████░` | 7 | 🟠 Practicing |
-| 🟡 Intermediate | Nested Loops | `████████░░` | 6 | 🟠 Practicing |
+| 🟡 Intermediate | Nested Loops | `█████████░` | 7 | 🟠 Practicing |
 | 🟡 Intermediate | Comprehensions | `████░░░░░░` | 3 | 🟠 Practicing |
-| 🟡 Intermediate | Functions | `██████████` | 29 | 🟢 Strong |
+| 🟡 Intermediate | Functions | `██████████` | 30 | 🟢 Strong |
 | 🟡 Intermediate | Lambda, Map & Filter | `░░░░░░░░░░` | 0 | ⬜ Not started |
 | 🟡 Intermediate | Error Handling | `░░░░░░░░░░` | 0 | ⬜ Not started |
 | 🟡 Intermediate | File Handling | `░░░░░░░░░░` | 0 | ⬜ Not started |
@@ -59,19 +59,19 @@ _The growth graph fills in as you practice on more days._
 
 ```mermaid
 pie showData title Practice cells per topic
-    "Variables & Data Types" : 2
+    "Variables & Data Types" : 3
     "User Input" : 35
     "Operators & Math" : 16
-    "Conditionals" : 34
+    "Conditionals" : 35
     "Strings" : 7
-    "Loops" : 33
+    "Loops" : 34
     "Number Logic" : 10
-    "Lists" : 20
+    "Lists" : 21
     "Frequency & Counting" : 8
     "Dictionaries" : 7
-    "Nested Loops" : 6
+    "Nested Loops" : 7
     "Comprehensions" : 3
-    "Functions" : 29
+    "Functions" : 30
 ```
 
 ## 📓 Notebooks
@@ -132,4 +132,4 @@ _Difficulty bars count the problems listed below; the big number comes from your
 </p>
 
 ---
-<sub>Auto-generated on 12 Oct 2026, 13:25 UTC by GitHub Actions from the notebooks in this repo.</sub>
+<sub>Auto-generated on 12 Oct 2026, 14:00 UTC by GitHub Actions from the notebooks in this repo.</sub>
