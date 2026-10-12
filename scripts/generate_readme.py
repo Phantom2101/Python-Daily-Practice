@@ -5,7 +5,7 @@ import visuals
 import platforms
 
 USER = "Phantom2101"
-REPO = "Python-Daily-Practicee"
+REPO = "Python-Daily-Practice"
 NAME = "Affan"            # EDIT: name shown in the title
 NB_DIR = "notebooks"
 
@@ -219,7 +219,7 @@ pie showData title Practice cells per topic
   <img src="https://streak-stats.demolab.com/?user={USER}&theme=tokyonight&hide_border=true" alt="Streak"/>
 </p>
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username={USER}&theme=tokyo-night&hide_border=true" alt="Activity graph"/>
+  <img src="https://raw.githubusercontent.com/{USER}/{REPO}/output/github-snake-dark.svg" alt="Contribution snake" width="100%"/>
 </p>
 
 ---
