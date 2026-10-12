@@ -6,44 +6,60 @@ Welcome to my Python learning journey! 🚀 This repository documents my progres
 
 ## 🎯 Goals
 
-* Build a strong foundation in Python programming.
-* Practice problem-solving through coding exercises.
-* Explore Python concepts from basic syntax to advanced topics.
-* Track learning progress through Jupyter notebooks and an interactive dashboard.
-* Maintain a record of coding challenges solved on platforms such as LeetCode and HackerRank.
+- Build a strong foundation in Python programming.
+- Practice problem-solving through coding exercises.
+- Explore Python concepts from basic syntax to advanced topics.
+- Track learning progress through Jupyter notebooks and an interactive dashboard.
+- Maintain a record of coding challenges solved on platforms such as LeetCode and HackerRank.
 
+## 📑 Table of Contents
 
+- [📊 Live Dashboard](#live-dashboard)
+- [📈 Learning Growth](#learning-growth)
+- [🗺️ Topic Roadmap](#topic-roadmap)
+- [🥧 Practice Distribution](#practice-distribution)
+- [📓 Notebooks](#notebooks)
+- [🧩 Coding Platforms](#coding-platforms)
+  - [🟠 LeetCode](#leetcode)
+  - [🟢 HackerRank](#hackerrank)
+- [🔥 Activity](#activity)
+
+---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:00f7ff,100:7b2ff7&text=Python+Practice+Journey&fontColor=ffffff&fontSize=44&animation=fadeIn&fontAlignY=38&desc=Affan%27s+learning+log&descAlignY=58&descSize=18" width="100%" alt="header"/>
-</p>
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Currently+learning%3A+Lists;Level%3A+Medium;Streak%3A+1+days;Showing+up+every+day" alt="typing"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:00f7ff,100:7b2ff7&text=Python+Practice+Journey&fontColor=ffffff&fontSize=44&animation=fadeIn&fontAlignY=38&desc=Affan%27s+learning+log&descAlignY=58&descSize=18" width="100%" alt="Python Practice Journey header"/>
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/Difficulty-Medium-yellow?style=for-the-badge&logo=python&logoColor=white" alt="Difficulty"/>
-<img src="https://img.shields.io/badge/Topics-13%20of%2024-blue?style=for-the-badge" alt="Topics"/>
-<img src="https://img.shields.io/badge/Streak-1%20days-orange?style=for-the-badge" alt="Streak"/>
-<img src="https://img.shields.io/badge/Days%20practiced-1-success?style=for-the-badge" alt="Days practiced"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Currently+learning%3A+Lists;Level%3A+Medium;Streak%3A+1+days;Showing+up+every+day" alt="Animated Python practice status"/>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Difficulty-Medium-yellow?style=for-the-badge&logo=python&logoColor=white" alt="Difficulty: Medium"/>
+  <img src="https://img.shields.io/badge/Topics-13%20of%2024-blue?style=for-the-badge" alt="Topics: 13 of 24"/>
+  <img src="https://img.shields.io/badge/Streak-1%20day-orange?style=for-the-badge" alt="Streak: 1 day"/>
+  <img src="https://img.shields.io/badge/Days%20practiced-1-success?style=for-the-badge" alt="Days practiced: 1"/>
+</p>
+
+<a id="live-dashboard"></a>
 ## 📊 Live Dashboard
 
 | 🎯 Current topic | 📈 Difficulty | 📝 Latest question | 🔥 Streak | 🗓️ Days practiced | 🧮 Code cells |
-|---|---|---|---|---|---|
-| **Lists** | 🟡 Medium | Mixed Challenge — Remove Duplicates While Preserving Order | 1 days | 1 | 46 |
+|---|---|---|---:|---:|---:|
+| **Lists** | 🟡 Medium | Mixed Challenge — Remove Duplicates While Preserving Order | 1 day | 1 | 46 |
 
+<a id="learning-growth"></a>
 ## 📈 Learning Growth
 
-<img src="assets/growth.svg" alt="Learning growth" width="100%"/>
+<img src="assets/growth.svg" alt="Learning growth over time" width="100%"/>
 
 _The growth graph fills in as you practice on more days._
 
+<a id="topic-roadmap"></a>
 ## 🗺️ Topic Roadmap
 
 | Level | Topic | Practice depth | Cells | Status |
-|---|---|---|---|---|
+|---|---|---|---:|---|
 | 🟢 Beginner | Variables & Data Types | `████░░░░░░` | 3 | 🟠 Practicing |
 | 🟢 Beginner | User Input | `██████████` | 37 | 🟢 Strong |
 | 🟢 Beginner | Operators & Math | `██████████` | 17 | 🟢 Strong |
@@ -71,6 +87,7 @@ _The growth graph fills in as you practice on more days._
 
 **Question difficulty mix:** 🟢 Easy 0 · 🟡 Medium 10 · 🔴 Hard 0
 
+<a id="practice-distribution"></a>
 ## 🥧 Practice Distribution
 
 ```mermaid
@@ -90,20 +107,28 @@ pie showData title Practice cells per topic
     "Functions" : 32
 ```
 
+<a id="notebooks"></a>
 ## 📓 Notebooks
 
-| Notebook | Code cells | Run it |
-|---|---|---|
+Explore the practice notebooks below. You can open them on GitHub or launch them in Google Colab.
+
+| Notebook | Code cells | Open |
+|---|---:|---|
 | [Practice.ipynb](notebooks/Practice.ipynb) | 9 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Phantom2101/Python-Daily-Practice/blob/main/notebooks/Practice.ipynb) |
 | [PRACTICE2.ipynb](notebooks/PRACTICE2.ipynb) | 37 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Phantom2101/Python-Daily-Practice/blob/main/notebooks/PRACTICE2.ipynb) |
 
+<a id="coding-platforms"></a>
 ## 🧩 Coding Platforms
 
-<p align="center"><a href="https://leetcode.com/u/affankotwal"><img src="https://img.shields.io/badge/LeetCode-affankotwal-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a> <a href="https://www.hackerrank.com/profile/affankotwal"><img src="https://img.shields.io/badge/HackerRank-affankotwal-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black"/></a></p>
+<p align="center">
+  <a href="https://leetcode.com/u/affankotwal"><img src="https://img.shields.io/badge/LeetCode-affankotwal-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile: affankotwal"/></a>
+  <a href="https://www.hackerrank.com/profile/affankotwal"><img src="https://img.shields.io/badge/HackerRank-affankotwal-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank profile: affankotwal"/></a>
+</p>
 
+<a id="leetcode"></a>
 ### 🟠 LeetCode: [@affankotwal](https://leetcode.com/u/affankotwal)
 
-<img src="assets/leetcode.svg" alt="LeetCode stats" width="100%"/>
+<img src="assets/leetcode.svg" alt="LeetCode statistics" width="100%"/>
 
 | Recently solved | Difficulty | Date |
 |---|---|---|
@@ -119,15 +144,16 @@ pie showData title Practice cells per topic
 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium | 21 Jan 2026 |
 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | 21 Jan 2026 |
 
+<a id="hackerrank"></a>
 ### 🟢 HackerRank (Python): [@affankotwal](https://www.hackerrank.com/profile/affankotwal)
 
-<img src="assets/hackerrank.svg" alt="HackerRank Python stats" width="100%"/>
+<img src="assets/hackerrank.svg" alt="HackerRank Python statistics" width="100%"/>
 
 _Difficulty bars count the problems listed below; the big number comes from your Python badge._
 
 | Recently solved | Difficulty | Date |
 |---|---|---|
-| [Find the Runner-Up Score!  ](https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem) | 🟢 Easy | 09 Oct 2026 |
+| [Find the Runner-Up Score!](https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem) | 🟢 Easy | 09 Oct 2026 |
 | [List Comprehensions](https://www.hackerrank.com/challenges/list-comprehensions/problem) | 🟢 Easy | 08 Oct 2026 |
 | [Print Function](https://www.hackerrank.com/challenges/python-print/problem) | 🟢 Easy | 08 Oct 2026 |
 | [Write a function](https://www.hackerrank.com/challenges/write-a-function/problem) | 🟡 Medium | 08 Oct 2026 |
@@ -137,15 +163,17 @@ _Difficulty bars count the problems listed below; the big number comes from your
 | [Python If-Else](https://www.hackerrank.com/challenges/py-if-else/problem) | 🟢 Easy | 08 Oct 2026 |
 | [Say "Hello, World!" With Python](https://www.hackerrank.com/challenges/py-hello-world/problem) | 🟢 Easy | 08 Oct 2026 |
 
-
+<a id="activity"></a>
 ## 🔥 Activity
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Phantom2101&theme=tokyonight&hide_border=true" alt="Streak"/>
+  <img src="https://streak-stats.demolab.com/?user=Phantom2101&theme=tokyonight&hide_border=true" alt="GitHub contribution streak"/>
 </p>
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Phantom2101/Python-Daily-Practice/output/github-snake-dark.svg" alt="Contribution snake" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Phantom2101/Python-Daily-Practice/output/github-snake-dark.svg" alt="GitHub contribution snake animation" width="100%"/>
 </p>
 
 ---
-<sub>Auto-generated on 12 Oct 2026, 14:46 UTC by GitHub Actions from the notebooks in this repo.</sub>
+
+<sub>Auto-generated on 12 Oct 2026, 14:46 UTC by GitHub Actions from the notebooks in this repository.</sub>
