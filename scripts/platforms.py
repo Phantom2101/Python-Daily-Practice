@@ -87,45 +87,82 @@ def fetch_leetcode(history):
 def _hr(path):
     return _http(f"https://www.hackerrank.com/rest/{path}")
 
+# Python problems that can't be recognised automatically; add more slugs here if one is missing
+HR_EXTRA_PYTHON = {"find-second-maximum-number-in-a-list", "list-comprehensions"}
+
+def _python_slugs(info):
+    """Slugs of every challenge in HackerRank's Python domain (cached if the call fails)."""
+    slugs = set()
+    try:
+        for off in range(0, 500, 100):
+            r = _hr(f"contests/master/tracks/python/challenges?offset={off}&limit=100")
+            models = r.get("models", [])
+            for m in models:
+                sl = m.get("slug") or m.get("ch_slug")
+                if sl:
+                    slugs.add(sl)
+            if len(models) < 100:
+                break
+    except Exception as e:
+        print("HR python track list failed:", repr(e))
+    if slugs:
+        info["__python__"] = sorted(slugs)
+    else:
+        slugs = set(info.get("__python__", []))
+    print("HR python track slugs known:", len(slugs))
+    return slugs
+
+def _is_python(slug, c, py_slugs):
+    if slug in py_slugs or slug in HR_EXTRA_PYTHON:
+        return True
+    t = c.get("track_info") or {}
+    text = " ".join(str(v).lower() for v in t.values() if isinstance(v, str))
+    if "python" in text or "py-" in text:
+        return True
+    return slug.lower().startswith(("py-", "python")) or "python" in slug.lower()
+
 def fetch_hackerrank(history, info):
     d = _hr(f"hackers/{HR_USER}/badges")
     badges = [{"name": m.get("badge_name"), "stars": int(m.get("stars") or 0),
                "solved": m.get("solved")} for m in d.get("models", [])]
     print("HR badges:", [(b["name"], b["solved"]) for b in badges])
-    cursor = ""
+    py_slugs = _python_slugs(info)
+    cursor, kept, skipped = "", 0, 0
     for page in range(3):                           # up to 3 pages of recent challenges
         r = _hr(f"hackers/{HR_USER}/recent_challenges?limit=20&cursor={cursor}&response_type=recent")
         models = r.get("models", [])
-        print(f"HR recent page {page}: {len(models)} challenges; keys:",
-              list(models[0].keys())[:12] if models else "none")
+        print(f"HR recent page {page}: {len(models)} challenges")
         for m in models:
             slug = m.get("ch_slug") or m.get("slug")
             if not slug:
-                print("HR skipped, no slug:", list(m.keys())[:12])
                 continue
             ts = _ts(m.get("created_at"))
             if slug in history:
                 history[slug]["ts"] = max(history[slug]["ts"], ts)
+                kept += 1
                 continue
-            if slug not in info or not info[slug].get("track"):    # retry failed lookups
+            if slug not in info or "track_info" not in info[slug]:   # fetch details (retry old failures)
                 try:
                     model = _hr(f"contests/master/challenges/{slug}").get("model", {})
+                    track = model.get("track") or {}
                     info[slug] = {"difficulty": (model.get("difficulty_name") or "?").capitalize(),
-                                  "track": (model.get("track") or {}).get("name", ""),
+                                  "track": track.get("name", ""), "track_info": track,
                                   "title": model.get("name") or m.get("name") or slug}
-                    print("HR detail:", slug, info[slug]["track"], info[slug]["difficulty"])
                 except Exception as e:
                     print("HR detail failed:", slug, repr(e))
-                    info[slug] = {"difficulty": "?", "track": "", "title": m.get("name") or slug}
+                    info[slug] = {"difficulty": "?", "track": "", "track_info": {},
+                                  "title": m.get("name") or slug}
                 time.sleep(0.3)
             c = info[slug]
-            if HR_ONLY_PYTHON and "python" not in (c["track"] or "").lower():
-                print("HR skipped, track is not Python:", slug, repr(c["track"]))
+            if HR_ONLY_PYTHON and not _is_python(slug, c, py_slugs):
+                skipped += 1
                 continue
             history[slug] = {"title": c["title"], "difficulty": c["difficulty"], "ts": ts}
+            kept += 1
         cursor = r.get("cursor") or ""
         if r.get("last_page", True) or not cursor:
             break
+    print(f"HR python problems listed: {kept}, other languages skipped: {skipped}")
     if not badges and not history:
         raise ValueError("no data returned (HackerRank may be blocking automated requests)")
     return {"badges": badges}
