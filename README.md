@@ -109,7 +109,17 @@ pie showData title Practice cells per topic
 
 _Difficulty bars count the problems listed below; the big number comes from your Python badge._
 
-_No solved problems yet. Your first one will appear here automatically._
+| Recently solved | Difficulty | Date |
+|---|---|---|
+| [Find the Runner-Up Score!  ](https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem) | 🟢 Easy | 09 Oct 2026 |
+| [List Comprehensions](https://www.hackerrank.com/challenges/list-comprehensions/problem) | 🟢 Easy | 08 Oct 2026 |
+| [Print Function](https://www.hackerrank.com/challenges/python-print/problem) | 🟢 Easy | 08 Oct 2026 |
+| [Write a function](https://www.hackerrank.com/challenges/write-a-function/problem) | 🟡 Medium | 08 Oct 2026 |
+| [Loops](https://www.hackerrank.com/challenges/python-loops/problem) | 🟢 Easy | 08 Oct 2026 |
+| [Python: Division](https://www.hackerrank.com/challenges/python-division/problem) | 🟢 Easy | 08 Oct 2026 |
+| [Arithmetic Operators](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem) | 🟢 Easy | 08 Oct 2026 |
+| [Python If-Else](https://www.hackerrank.com/challenges/py-if-else/problem) | 🟢 Easy | 08 Oct 2026 |
+| [Say "Hello, World!" With Python](https://www.hackerrank.com/challenges/py-hello-world/problem) | 🟢 Easy | 08 Oct 2026 |
 
 
 ## 🔥 Activity
@@ -122,4 +132,4 @@ _No solved problems yet. Your first one will appear here automatically._
 </p>
 
 ---
-<sub>Auto-generated on 12 Oct 2026, 13:19 UTC by GitHub Actions from the notebooks in this repo.</sub>
+<sub>Auto-generated on 12 Oct 2026, 13:25 UTC by GitHub Actions from the notebooks in this repo.</sub>

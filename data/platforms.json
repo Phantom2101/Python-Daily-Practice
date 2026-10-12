@@ -96,307 +96,885 @@
       "ts": 1768969132
     }
   },
-  "hr_history": {},
+  "hr_history": {
+    "find-second-maximum-number-in-a-list": {
+      "title": "Find the Runner-Up Score!  ",
+      "difficulty": "Easy",
+      "ts": 1791540835
+    },
+    "list-comprehensions": {
+      "title": "List Comprehensions",
+      "difficulty": "Easy",
+      "ts": 1791436614
+    },
+    "python-print": {
+      "title": "Print Function",
+      "difficulty": "Easy",
+      "ts": 1791435077
+    },
+    "write-a-function": {
+      "title": "Write a function",
+      "difficulty": "Medium",
+      "ts": 1791434407
+    },
+    "python-loops": {
+      "title": "Loops",
+      "difficulty": "Easy",
+      "ts": 1791433938
+    },
+    "python-division": {
+      "title": "Python: Division",
+      "difficulty": "Easy",
+      "ts": 1791433811
+    },
+    "python-arithmetic-operators": {
+      "title": "Arithmetic Operators",
+      "difficulty": "Easy",
+      "ts": 1791433457
+    },
+    "py-if-else": {
+      "title": "Python If-Else",
+      "difficulty": "Easy",
+      "ts": 1791433260
+    },
+    "py-hello-world": {
+      "title": "Say \"Hello, World!\" With Python",
+      "difficulty": "Easy",
+      "ts": 1791432728
+    }
+  },
   "hr_challenge_info": {
     "find-second-maximum-number-in-a-list": {
       "difficulty": "Easy",
       "track": "Basic Data Types",
+      "track_info": {
+        "id": 74,
+        "name": "Basic Data Types",
+        "slug": "py-basic-data-types",
+        "track_id": 12,
+        "track_name": "Python",
+        "track_slug": "python"
+      },
       "title": "Find the Runner-Up Score!  "
     },
     "list-comprehensions": {
       "difficulty": "Easy",
       "track": "Basic Data Types",
+      "track_info": {
+        "id": 74,
+        "name": "Basic Data Types",
+        "slug": "py-basic-data-types",
+        "track_id": 12,
+        "track_name": "Python",
+        "track_slug": "python"
+      },
       "title": "List Comprehensions"
     },
     "python-print": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 73,
+        "name": "Introduction",
+        "slug": "py-introduction",
+        "track_id": 12,
+        "track_name": "Python",
+        "track_slug": "python"
+      },
       "title": "Print Function"
     },
     "write-a-function": {
       "difficulty": "Medium",
       "track": "Introduction",
+      "track_info": {
+        "id": 73,
+        "name": "Introduction",
+        "slug": "py-introduction",
+        "track_id": 12,
+        "track_name": "Python",
+        "track_slug": "python"
+      },
       "title": "Write a function"
     },
     "python-loops": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 73,
+        "name": "Introduction",
+        "slug": "py-introduction",
+        "track_id": 12,
+        "track_name": "Python",
+        "track_slug": "python"
+      },
       "title": "Loops"
     },
     "python-division": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 73,
+        "name": "Introduction",
+        "slug": "py-introduction",
+        "track_id": 12,
+        "track_name": "Python",
+        "track_slug": "python"
+      },
       "title": "Python: Division"
     },
     "python-arithmetic-operators": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 73,
+        "name": "Introduction",
+        "slug": "py-introduction",
+        "track_id": 12,
+        "track_name": "Python",
+        "track_slug": "python"
+      },
       "title": "Arithmetic Operators"
     },
     "py-if-else": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 73,
+        "name": "Introduction",
+        "slug": "py-introduction",
+        "track_id": 12,
+        "track_name": "Python",
+        "track_slug": "python"
+      },
       "title": "Python If-Else"
     },
     "py-hello-world": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 73,
+        "name": "Introduction",
+        "slug": "py-introduction",
+        "track_id": 12,
+        "track_name": "Python",
+        "track_slug": "python"
+      },
       "title": "Say \"Hello, World!\" With Python"
     },
     "java-date-and-time": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 80,
+        "name": "Introduction",
+        "slug": "java-introduction",
+        "track_id": 15,
+        "track_name": "Java",
+        "track_slug": "java"
+      },
       "title": "Java Date and Time"
     },
     "java-inheritance-2": {
       "difficulty": "Easy",
       "track": "Object Oriented Programming",
+      "track_info": {
+        "id": 85,
+        "name": "Object Oriented Programming",
+        "slug": "oop",
+        "track_id": 15,
+        "track_name": "Java",
+        "track_slug": "java"
+      },
       "title": "Java Inheritance II"
     },
     "java-inheritance-1": {
       "difficulty": "Easy",
       "track": "Object Oriented Programming",
+      "track_info": {
+        "id": 85,
+        "name": "Object Oriented Programming",
+        "slug": "oop",
+        "track_id": 15,
+        "track_name": "Java",
+        "track_slug": "java"
+      },
       "title": "Java Inheritance I"
     },
     "time-conversion": {
       "difficulty": "Easy",
       "track": "Warmup",
+      "track_info": {
+        "id": 43,
+        "name": "Warmup",
+        "slug": "warmup",
+        "track_id": 3,
+        "track_name": "Algorithms",
+        "track_slug": "algorithms"
+      },
       "title": "Time Conversion"
     },
     "java-int-to-string": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 80,
+        "name": "Introduction",
+        "slug": "java-introduction",
+        "track_id": 15,
+        "track_name": "Java",
+        "track_slug": "java"
+      },
       "title": "Java Int to String"
     },
     "mini-max-sum": {
       "difficulty": "Easy",
       "track": "Warmup",
+      "track_info": {
+        "id": 43,
+        "name": "Warmup",
+        "slug": "warmup",
+        "track_id": 3,
+        "track_name": "Algorithms",
+        "track_slug": "algorithms"
+      },
       "title": "Mini-Max Sum"
     },
     "2d-array": {
       "difficulty": "Easy",
       "track": "Arrays",
+      "track_info": {
+        "id": 134,
+        "name": "Arrays",
+        "slug": "arrays",
+        "track_id": 17,
+        "track_name": "Data Structures",
+        "track_slug": "data-structures"
+      },
       "title": "2D Array - DS"
     },
     "arrays-ds": {
       "difficulty": "Easy",
       "track": "Arrays",
+      "track_info": {
+        "id": 134,
+        "name": "Arrays",
+        "slug": "arrays",
+        "track_id": 17,
+        "track_name": "Data Structures",
+        "track_slug": "data-structures"
+      },
       "title": "Arrays - DS"
     },
     "java-strings-introduction": {
       "difficulty": "Easy",
       "track": "Strings",
+      "track_info": {
+        "id": 82,
+        "name": "Strings",
+        "slug": "java-strings",
+        "track_id": 15,
+        "track_name": "Java",
+        "track_slug": "java"
+      },
       "title": "Java Strings Introduction"
     },
     "java-static-initializer-block": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 80,
+        "name": "Introduction",
+        "slug": "java-introduction",
+        "track_id": 15,
+        "track_name": "Java",
+        "track_slug": "java"
+      },
       "title": "Java Static Initializer Block"
     },
     "java-end-of-file": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 80,
+        "name": "Introduction",
+        "slug": "java-introduction",
+        "track_id": 15,
+        "track_name": "Java",
+        "track_slug": "java"
+      },
       "title": "Java End-of-file"
     },
     "java-datatypes": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 80,
+        "name": "Introduction",
+        "slug": "java-introduction",
+        "track_id": 15,
+        "track_name": "Java",
+        "track_slug": "java"
+      },
       "title": "Java Datatypes"
     },
     "java-loops": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 80,
+        "name": "Introduction",
+        "slug": "java-introduction",
+        "track_id": 15,
+        "track_name": "Java",
+        "track_slug": "java"
+      },
       "title": "Java Loops II"
     },
     "java-loops-i": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 80,
+        "name": "Introduction",
+        "slug": "java-introduction",
+        "track_id": 15,
+        "track_name": "Java",
+        "track_slug": "java"
+      },
       "title": "Java Loops I"
     },
     "java-output-formatting": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 80,
+        "name": "Introduction",
+        "slug": "java-introduction",
+        "track_id": 15,
+        "track_name": "Java",
+        "track_slug": "java"
+      },
       "title": "Java Output Formatting"
     },
     "java-stdin-stdout": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 80,
+        "name": "Introduction",
+        "slug": "java-introduction",
+        "track_id": 15,
+        "track_name": "Java",
+        "track_slug": "java"
+      },
       "title": "Java Stdin and Stdout II"
     },
     "java-if-else": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 80,
+        "name": "Introduction",
+        "slug": "java-introduction",
+        "track_id": 15,
+        "track_name": "Java",
+        "track_slug": "java"
+      },
       "title": "Java If-Else"
     },
     "java-stdin-and-stdout-1": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 80,
+        "name": "Introduction",
+        "slug": "java-introduction",
+        "track_id": 15,
+        "track_name": "Java",
+        "track_slug": "java"
+      },
       "title": " Java Stdin and Stdout I"
     },
     "welcome-to-java": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 80,
+        "name": "Introduction",
+        "slug": "java-introduction",
+        "track_id": 15,
+        "track_name": "Java",
+        "track_slug": "java"
+      },
       "title": "Welcome to Java!"
     },
     "permutations-of-strings": {
       "difficulty": "Medium",
       "track": "Functions",
+      "track_info": {
+        "id": 157,
+        "name": "Functions",
+        "slug": "c-functions",
+        "track_id": 27,
+        "track_name": "C",
+        "track_slug": "c"
+      },
       "title": "Permutations of Strings"
     },
     "sorting-array-of-strings": {
       "difficulty": "Hard",
       "track": "Functions",
+      "track_info": {
+        "id": 157,
+        "name": "Functions",
+        "slug": "c-functions",
+        "track_id": 27,
+        "track_name": "C",
+        "track_slug": "c"
+      },
       "title": "Sorting Array of Strings"
     },
     "students-marks-sum": {
       "difficulty": "Easy",
       "track": "Functions",
+      "track_info": {
+        "id": 157,
+        "name": "Functions",
+        "slug": "c-functions",
+        "track_id": 27,
+        "track_name": "C",
+        "track_slug": "c"
+      },
       "title": "Students Marks Sum"
     },
     "rectangle-area": {
       "difficulty": "Easy",
       "track": "Inheritance",
+      "track_info": {
+        "id": 127,
+        "name": "Inheritance",
+        "slug": "inheritance",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "Rectangle Area"
     },
     "inheritance-introduction": {
       "difficulty": "Easy",
       "track": "Inheritance",
+      "track_info": {
+        "id": 127,
+        "name": "Inheritance",
+        "slug": "inheritance",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "Inheritance Introduction"
     },
     "box-it": {
       "difficulty": "Easy",
       "track": "Classes",
+      "track_info": {
+        "id": 78,
+        "name": "Classes",
+        "slug": "classes",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "Box It!"
     },
     "classes-objects": {
       "difficulty": "Easy",
       "track": "Classes",
+      "track_info": {
+        "id": 78,
+        "name": "Classes",
+        "slug": "classes",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "Classes and Objects"
     },
     "c-tutorial-struct": {
       "difficulty": "Easy",
       "track": "Classes",
+      "track_info": {
+        "id": 78,
+        "name": "Classes",
+        "slug": "classes",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "Structs"
     },
     "multi-level-inheritance-cpp": {
       "difficulty": "Easy",
       "track": "Inheritance",
+      "track_info": {
+        "id": 127,
+        "name": "Inheritance",
+        "slug": "inheritance",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "Multi Level Inheritance "
     },
     "inherited-code": {
       "difficulty": "Medium",
       "track": "Classes",
+      "track_info": {
+        "id": 78,
+        "name": "Classes",
+        "slug": "classes",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "Inherited Code"
     },
     "c-tutorial-strings": {
       "difficulty": "Easy",
       "track": "Strings",
+      "track_info": {
+        "id": 76,
+        "name": "Strings",
+        "slug": "cpp-strings",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "Strings"
     },
     "c-tutorial-stringstream": {
       "difficulty": "Easy",
       "track": "Strings",
+      "track_info": {
+        "id": 76,
+        "name": "Strings",
+        "slug": "cpp-strings",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "StringStream"
     },
     "recursion-in-c": {
       "difficulty": "Easy",
       "track": "Functions",
+      "track_info": {
+        "id": 157,
+        "name": "Functions",
+        "slug": "c-functions",
+        "track_id": 27,
+        "track_name": "C",
+        "track_slug": "c"
+      },
       "title": "Calculate the Nth term"
     },
     "c-tutorial-class": {
       "difficulty": "Easy",
       "track": "Classes",
+      "track_info": {
+        "id": 78,
+        "name": "Classes",
+        "slug": "classes",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "Class"
     },
     "c-tutorial-pointer": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 77,
+        "name": "Introduction",
+        "slug": "cpp-introduction",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "Pointer"
     },
     "staircase": {
       "difficulty": "Easy",
       "track": "Warmup",
+      "track_info": {
+        "id": 43,
+        "name": "Warmup",
+        "slug": "warmup",
+        "track_id": 3,
+        "track_name": "Algorithms",
+        "track_slug": "algorithms"
+      },
       "title": "Staircase"
     },
     "plus-minus": {
       "difficulty": "Easy",
       "track": "Warmup",
+      "track_info": {
+        "id": 43,
+        "name": "Warmup",
+        "slug": "warmup",
+        "track_id": 3,
+        "track_name": "Algorithms",
+        "track_slug": "algorithms"
+      },
       "title": "Plus Minus"
     },
     "frequency-of-digits-1": {
       "difficulty": "Medium",
       "track": "Arrays and Strings",
+      "track_info": {
+        "id": 156,
+        "name": "Arrays and Strings",
+        "slug": "c-arrays-and-strings",
+        "track_id": 27,
+        "track_name": "C",
+        "track_slug": "c"
+      },
       "title": "Digit Frequency"
     },
     "printing-tokens-": {
       "difficulty": "Medium",
       "track": "Arrays and Strings",
+      "track_info": {
+        "id": 156,
+        "name": "Arrays and Strings",
+        "slug": "c-arrays-and-strings",
+        "track_id": 27,
+        "track_name": "C",
+        "track_slug": "c"
+      },
       "title": "Printing Tokens"
     },
     "reverse-array-c": {
       "difficulty": "Medium",
       "track": "Arrays and Strings",
+      "track_info": {
+        "id": 156,
+        "name": "Arrays and Strings",
+        "slug": "c-arrays-and-strings",
+        "track_id": 27,
+        "track_name": "C",
+        "track_slug": "c"
+      },
       "title": "Array Reversal"
     },
     "1d-arrays-in-c": {
       "difficulty": "Medium",
       "track": "Arrays and Strings",
+      "track_info": {
+        "id": 156,
+        "name": "Arrays and Strings",
+        "slug": "c-arrays-and-strings",
+        "track_id": 27,
+        "track_name": "C",
+        "track_slug": "c"
+      },
       "title": "1D Arrays in C"
     },
     "variable-sized-arrays": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 77,
+        "name": "Introduction",
+        "slug": "cpp-introduction",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "Variable Sized Arrays"
     },
     "arrays-introduction": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 77,
+        "name": "Introduction",
+        "slug": "cpp-introduction",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "Arrays Introduction"
     },
     "c-tutorial-functions": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 77,
+        "name": "Introduction",
+        "slug": "cpp-introduction",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "Functions"
     },
     "c-tutorial-for-loop": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 77,
+        "name": "Introduction",
+        "slug": "cpp-introduction",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "For Loop"
     },
     "c-tutorial-conditional-if-else": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 77,
+        "name": "Introduction",
+        "slug": "cpp-introduction",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "Conditional Statements"
     },
     "c-tutorial-basic-data-types": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 77,
+        "name": "Introduction",
+        "slug": "cpp-introduction",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "Basic Data Types"
     },
     "cpp-input-and-output": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 77,
+        "name": "Introduction",
+        "slug": "cpp-introduction",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "Input and Output"
     },
     "cpp-hello-world": {
       "difficulty": "Easy",
       "track": "Introduction",
+      "track_info": {
+        "id": 77,
+        "name": "Introduction",
+        "slug": "cpp-introduction",
+        "track_id": 13,
+        "track_name": "C++",
+        "track_slug": "cpp"
+      },
       "title": "Say \"Hello, World!\" With C++"
     },
     "diagonal-difference": {
       "difficulty": "Easy",
       "track": "Warmup",
+      "track_info": {
+        "id": 43,
+        "name": "Warmup",
+        "slug": "warmup",
+        "track_id": 3,
+        "track_name": "Algorithms",
+        "track_slug": "algorithms"
+      },
       "title": "Diagonal Difference"
     },
     "a-very-big-sum": {
       "difficulty": "Easy",
       "track": "Warmup",
+      "track_info": {
+        "id": 43,
+        "name": "Warmup",
+        "slug": "warmup",
+        "track_id": 3,
+        "track_name": "Algorithms",
+        "track_slug": "algorithms"
+      },
       "title": "A Very Big Sum"
     },
     "compare-the-triplets": {
       "difficulty": "Easy",
       "track": "Warmup",
+      "track_info": {
+        "id": 43,
+        "name": "Warmup",
+        "slug": "warmup",
+        "track_id": 3,
+        "track_name": "Algorithms",
+        "track_slug": "algorithms"
+      },
       "title": "Compare the Triplets"
-    }
+    },
+    "__python__": [
+      "alphabet-rangoli",
+      "calendar-module",
+      "capitalize",
+      "collections-counter",
+      "compress-the-string",
+      "defaultdict-tutorial",
+      "designer-door-mat",
+      "exceptions",
+      "find-a-string",
+      "find-angle",
+      "find-second-maximum-number-in-a-list",
+      "finding-the-percentage",
+      "incorrect-regex",
+      "itertools-combinations",
+      "itertools-combinations-with-replacement",
+      "itertools-permutations",
+      "itertools-product",
+      "list-comprehensions",
+      "merge-the-tools",
+      "most-commons",
+      "nested-list",
+      "no-idea",
+      "polar-coordinates",
+      "py-collections-deque",
+      "py-collections-namedtuple",
+      "py-collections-ordereddict",
+      "py-hello-world",
+      "py-if-else",
+      "py-introduction-to-sets",
+      "py-set-add",
+      "py-set-discard-remove-pop",
+      "python-arithmetic-operators",
+      "python-division",
+      "python-lists",
+      "python-loops",
+      "python-mutations",
+      "python-print",
+      "python-string-formatting",
+      "python-string-split-and-join",
+      "python-time-delta",
+      "python-tuples",
+      "string-validators",
+      "swap-case",
+      "symmetric-difference",
+      "text-alignment",
+      "text-wrap",
+      "the-minion-game",
+      "whats-your-name",
+      "word-order",
+      "write-a-function"
+    ]
   }
 }
