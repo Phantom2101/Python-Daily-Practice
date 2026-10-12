@@ -75,6 +75,39 @@ pie showData title Practice cells per topic
 | [Practice.ipynb](notebooks/Practice.ipynb) | 9 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Phantom2101/Python-Daily-Practicee/blob/main/notebooks/Practice.ipynb) |
 | [PRACTICE2.ipynb](notebooks/PRACTICE2.ipynb) | 35 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Phantom2101/Python-Daily-Practicee/blob/main/notebooks/PRACTICE2.ipynb) |
 
+## 🧩 Coding Platforms
+
+<p align="center"><a href="https://leetcode.com/u/affankotwal"><img src="https://img.shields.io/badge/LeetCode-affankotwal-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a> <a href="https://www.hackerrank.com/profile/affankotwal"><img src="https://img.shields.io/badge/HackerRank-affankotwal-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black"/></a></p>
+
+### 🟠 LeetCode: [@affankotwal](https://leetcode.com/u/affankotwal)
+
+<img src="assets/leetcode.svg" alt="LeetCode stats" width="100%"/>
+
+| Recently solved | Difficulty | Date |
+|---|---|---|
+| [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy | 27 Jan 2026 |
+| [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | 🟡 Medium | 21 Jan 2026 |
+| [Sort Colors](https://leetcode.com/problems/sort-colors/) | 🟡 Medium | 21 Jan 2026 |
+| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium | 21 Jan 2026 |
+| [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 Hard | 21 Jan 2026 |
+| [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | 21 Jan 2026 |
+| [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | 🟡 Medium | 21 Jan 2026 |
+| [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | 21 Jan 2026 |
+| [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | 21 Jan 2026 |
+| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium | 21 Jan 2026 |
+
+### 🟢 HackerRank: [@affankotwal](https://www.hackerrank.com/profile/affankotwal)
+
+| Badge | Stars | Solved |
+|---|---|---|
+| Problem Solving | ⭐⭐ | 11 |
+| C++ | ⭐⭐⭐⭐⭐ | 18 |
+| Java | ⭐⭐⭐ | 13 |
+| Python | ⭐⭐ | 9 |
+| C | ⭐⭐⭐⭐ | 17 |
+
+
+
 ## 🔥 Activity
 
 <p align="center">
@@ -85,4 +118,4 @@ pie showData title Practice cells per topic
 </p>
 
 ---
-<sub>Auto-generated on 12 Oct 2026, 09:11 UTC by GitHub Actions from the notebooks in this repo.</sub>
+<sub>Auto-generated on 12 Oct 2026, 09:18 UTC by GitHub Actions from the notebooks in this repo.</sub>
