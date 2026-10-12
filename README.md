@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:00f7ff,100:7b2ff7&text=Python+Practice+Journey&fontColor=ffffff&fontSize=44&animation=fadeIn&fontAlignY=38&desc=Affan%27s+learning+log&descAlignY=58&descSize=18" width="100%" alt="header"/>
 </p>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Currently+learning%3A+Frequency+%26+Counting;Level%3A+Medium;Streak%3A+1+days;Showing+up+every+day" alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Currently+learning%3A+Lists;Level%3A+Medium;Streak%3A+1+days;Showing+up+every+day" alt="typing"/>
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 | 🎯 Current topic | 📈 Difficulty | 📝 Latest question | 🔥 Streak | 🗓️ Days practiced | 🧮 Code cells |
 |---|---|---|---|---|---|
-| **Frequency & Counting** | 🟡 Medium | Majority Element — Efficient Version | 1 days | 1 | 45 |
+| **Lists** | 🟡 Medium | Mixed Challenge — Remove Duplicates While Preserving Order | 1 days | 1 | 46 |
 
 ## 📈 Learning Growth
 
@@ -29,20 +29,20 @@ _The growth graph fills in as you practice on more days._
 | Level | Topic | Practice depth | Cells | Status |
 |---|---|---|---|---|
 | 🟢 Beginner | Variables & Data Types | `████░░░░░░` | 3 | 🟠 Practicing |
-| 🟢 Beginner | User Input | `██████████` | 36 | 🟢 Strong |
+| 🟢 Beginner | User Input | `██████████` | 37 | 🟢 Strong |
 | 🟢 Beginner | Operators & Math | `██████████` | 17 | 🟢 Strong |
-| 🟢 Beginner | Conditionals | `██████████` | 36 | 🟢 Strong |
+| 🟢 Beginner | Conditionals | `██████████` | 37 | 🟢 Strong |
 | 🟢 Beginner | Strings | `█████████░` | 7 | 🟠 Practicing |
-| 🟢 Beginner | Loops | `██████████` | 35 | 🟢 Strong |
+| 🟢 Beginner | Loops | `██████████` | 36 | 🟢 Strong |
 | 🟡 Intermediate | Number Logic | `██████████` | 10 | 🟢 Strong |
-| 🟡 Intermediate | Lists | `██████████` | 21 | 🟢 Strong |
+| 🟡 Intermediate | Lists | `██████████` | 22 | 🟢 Strong |
 | 🟡 Intermediate | Frequency & Counting | `██████████` | 9 | 🟢 Strong |
 | 🟡 Intermediate | Tuples | `░░░░░░░░░░` | 0 | ⬜ Not started |
 | 🟡 Intermediate | Sets | `░░░░░░░░░░` | 0 | ⬜ Not started |
 | 🟡 Intermediate | Dictionaries | `█████████░` | 7 | 🟠 Practicing |
 | 🟡 Intermediate | Nested Loops | `█████████░` | 7 | 🟠 Practicing |
 | 🟡 Intermediate | Comprehensions | `████░░░░░░` | 3 | 🟠 Practicing |
-| 🟡 Intermediate | Functions | `██████████` | 31 | 🟢 Strong |
+| 🟡 Intermediate | Functions | `██████████` | 32 | 🟢 Strong |
 | 🟡 Intermediate | Lambda, Map & Filter | `░░░░░░░░░░` | 0 | ⬜ Not started |
 | 🟡 Intermediate | Error Handling | `░░░░░░░░░░` | 0 | ⬜ Not started |
 | 🟡 Intermediate | File Handling | `░░░░░░░░░░` | 0 | ⬜ Not started |
@@ -53,25 +53,25 @@ _The growth graph fills in as you practice on more days._
 | 🔴 Advanced | Pandas | `░░░░░░░░░░` | 0 | ⬜ Not started |
 | 🔴 Advanced | Visualization | `░░░░░░░░░░` | 0 | ⬜ Not started |
 
-**Question difficulty mix:** 🟢 Easy 0 · 🟡 Medium 9 · 🔴 Hard 0
+**Question difficulty mix:** 🟢 Easy 0 · 🟡 Medium 10 · 🔴 Hard 0
 
 ## 🥧 Practice Distribution
 
 ```mermaid
 pie showData title Practice cells per topic
     "Variables & Data Types" : 3
-    "User Input" : 36
+    "User Input" : 37
     "Operators & Math" : 17
-    "Conditionals" : 36
+    "Conditionals" : 37
     "Strings" : 7
-    "Loops" : 35
+    "Loops" : 36
     "Number Logic" : 10
-    "Lists" : 21
+    "Lists" : 22
     "Frequency & Counting" : 9
     "Dictionaries" : 7
     "Nested Loops" : 7
     "Comprehensions" : 3
-    "Functions" : 31
+    "Functions" : 32
 ```
 
 ## 📓 Notebooks
@@ -79,7 +79,7 @@ pie showData title Practice cells per topic
 | Notebook | Code cells | Run it |
 |---|---|---|
 | [Practice.ipynb](notebooks/Practice.ipynb) | 9 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Phantom2101/Python-Daily-Practice/blob/main/notebooks/Practice.ipynb) |
-| [PRACTICE2.ipynb](notebooks/PRACTICE2.ipynb) | 36 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Phantom2101/Python-Daily-Practice/blob/main/notebooks/PRACTICE2.ipynb) |
+| [PRACTICE2.ipynb](notebooks/PRACTICE2.ipynb) | 37 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Phantom2101/Python-Daily-Practice/blob/main/notebooks/PRACTICE2.ipynb) |
 
 ## 🧩 Coding Platforms
 
@@ -132,4 +132,4 @@ _Difficulty bars count the problems listed below; the big number comes from your
 </p>
 
 ---
-<sub>Auto-generated on 12 Oct 2026, 14:31 UTC by GitHub Actions from the notebooks in this repo.</sub>
+<sub>Auto-generated on 12 Oct 2026, 14:43 UTC by GitHub Actions from the notebooks in this repo.</sub>
