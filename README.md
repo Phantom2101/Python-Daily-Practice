@@ -1,3 +1,19 @@
+# 🐍 Python Daily Practice
+
+**Learn Python. Practice Daily. Track Progress.**
+
+Welcome to my Python learning journey! 🚀 This repository documents my progress in strengthening Python fundamentals, solving coding challenges, and improving problem-solving skills through consistent practice.
+
+## 🎯 Goals
+
+* Build a strong foundation in Python programming.
+* Practice problem-solving through coding exercises.
+* Explore Python concepts from basic syntax to advanced topics.
+* Track learning progress through Jupyter notebooks and an interactive dashboard.
+* Maintain a record of coding challenges solved on platforms such as LeetCode and HackerRank.
+
+
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:00f7ff,100:7b2ff7&text=Python+Practice+Journey&fontColor=ffffff&fontSize=44&animation=fadeIn&fontAlignY=38&desc=Affan%27s+learning+log&descAlignY=58&descSize=18" width="100%" alt="header"/>
 </p>
