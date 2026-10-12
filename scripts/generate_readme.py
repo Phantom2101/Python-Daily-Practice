@@ -169,7 +169,7 @@ series = visuals.history(NB_DIR)
 growth_note = visuals.write_growth(series)
 now = datetime.datetime.now(datetime.timezone.utc).strftime("%d %b %Y, %H:%M UTC")
 
-{visuals.header(NAME, latest_name, lvl_name, cur_streak)}
+readme = f"""{visuals.header(NAME, latest_name, lvl_name, cur_streak)}
 
 <p align="center">
 {badge("Level", lvl_name, lvl_color, "python")}
