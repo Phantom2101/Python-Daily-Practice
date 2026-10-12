@@ -1,0 +1,112 @@
+{
+  "leetcode": {
+    "solved": {
+      "All": 21,
+      "Easy": 8,
+      "Medium": 10,
+      "Hard": 3
+    },
+    "total": {
+      "All": 4081,
+      "Easy": 971,
+      "Medium": 2128,
+      "Hard": 982
+    },
+    "recent": [
+      {
+        "title": "Longest Common Prefix",
+        "slug": "longest-common-prefix",
+        "difficulty": "Easy",
+        "ts": 1769530725
+      },
+      {
+        "title": "Remove K Digits",
+        "slug": "remove-k-digits",
+        "difficulty": "Medium",
+        "ts": 1768991264
+      },
+      {
+        "title": "Sort Colors",
+        "slug": "sort-colors",
+        "difficulty": "Medium",
+        "ts": 1768991127
+      },
+      {
+        "title": "Container With Most Water",
+        "slug": "container-with-most-water",
+        "difficulty": "Medium",
+        "ts": 1768990468
+      },
+      {
+        "title": "Regular Expression Matching",
+        "slug": "regular-expression-matching",
+        "difficulty": "Hard",
+        "ts": 1768988976
+      },
+      {
+        "title": "Palindrome Number",
+        "slug": "palindrome-number",
+        "difficulty": "Easy",
+        "ts": 1768984649
+      },
+      {
+        "title": "String to Integer (atoi)",
+        "slug": "string-to-integer-atoi",
+        "difficulty": "Medium",
+        "ts": 1768984365
+      },
+      {
+        "title": "Reverse Integer",
+        "slug": "reverse-integer",
+        "difficulty": "Medium",
+        "ts": 1768983719
+      },
+      {
+        "title": "Median of Two Sorted Arrays",
+        "slug": "median-of-two-sorted-arrays",
+        "difficulty": "Hard",
+        "ts": 1768971852
+      },
+      {
+        "title": "Longest Substring Without Repeating Characters",
+        "slug": "longest-substring-without-repeating-characters",
+        "difficulty": "Medium",
+        "ts": 1768969683
+      }
+    ],
+    "current": "Medium",
+    "ranking": 4426064
+  },
+  "leetcode_synced": "12 Oct 2026",
+  "hackerrank": {
+    "badges": [
+      {
+        "name": "Problem Solving",
+        "stars": 2,
+        "solved": 11
+      },
+      {
+        "name": "C++",
+        "stars": 5,
+        "solved": 18
+      },
+      {
+        "name": "Java",
+        "stars": 3,
+        "solved": 13
+      },
+      {
+        "name": "Python",
+        "stars": 2,
+        "solved": 9
+      },
+      {
+        "name": "C",
+        "stars": 4,
+        "solved": 17
+      }
+    ],
+    "source": "auto"
+  },
+  "hackerrank_synced": "12 Oct 2026"
+}

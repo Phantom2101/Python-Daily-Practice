@@ -72,8 +72,8 @@ pie showData title Practice cells per topic
 
 | Notebook | Code cells | Run it |
 |---|---|---|
-| [Practice.ipynb](notebooks/Practice.ipynb) | 9 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Phantom2101/Python-Daily-Practicee/blob/main/notebooks/Practice.ipynb) |
-| [PRACTICE2.ipynb](notebooks/PRACTICE2.ipynb) | 35 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Phantom2101/Python-Daily-Practicee/blob/main/notebooks/PRACTICE2.ipynb) |
+| [Practice.ipynb](notebooks/Practice.ipynb) | 9 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Phantom2101/Python-Daily-Practice/blob/main/notebooks/Practice.ipynb) |
+| [PRACTICE2.ipynb](notebooks/PRACTICE2.ipynb) | 35 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Phantom2101/Python-Daily-Practice/blob/main/notebooks/PRACTICE2.ipynb) |
 
 ## 🧩 Coding Platforms
 
@@ -114,8 +114,8 @@ pie showData title Practice cells per topic
   <img src="https://streak-stats.demolab.com/?user=Phantom2101&theme=tokyonight&hide_border=true" alt="Streak"/>
 </p>
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Phantom2101&theme=tokyo-night&hide_border=true" alt="Activity graph"/>
+  <img src="https://raw.githubusercontent.com/Phantom2101/Python-Daily-Practice/output/github-snake-dark.svg" alt="Contribution snake" width="100%"/>
 </p>
 
 ---
-<sub>Auto-generated on 12 Oct 2026, 09:18 UTC by GitHub Actions from the notebooks in this repo.</sub>
+<sub>Auto-generated on 12 Oct 2026, 09:32 UTC by GitHub Actions from the notebooks in this repo.</sub>
