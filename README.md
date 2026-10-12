@@ -42,6 +42,15 @@ Welcome to my Python learning journey! 🚀 This repository documents my progres
 </p>
 
 <a id="live-dashboard"></a>
+## 💡 Project Highlights
+
+- **Python problem solving:** Practice programming fundamentals and progressively explore more advanced concepts.
+- **Jupyter notebooks:** Organize coding exercises and review solutions in an interactive format.
+- **Workflow automation:** Use GitHub Actions to regenerate repository documentation when relevant files change.
+- **Automated dashboards:** Generate topic-progress summaries, practice charts, and SVG visuals with Python.
+- **API integration and caching:** Collect coding-platform statistics and retain previously synced data when requests fail.
+
+
 ## 📊 Live Dashboard
 
 | 🎯 Current topic | 📈 Difficulty | 📝 Latest question | 🔥 Streak | 🗓️ Days practiced | 🧮 Code cells |
