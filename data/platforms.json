@@ -6,7 +6,7 @@
       "Medium": 10,
       "Hard": 3
     },
-    "ranking": 4431353
+    "ranking": 4433487
   },
   "leetcode_synced": "14 Oct 2026",
   "hackerrank": {
@@ -93,7 +93,12 @@
     "two-sum": {
       "title": "Two Sum",
       "difficulty": "Easy",
-      "ts": 1768969132
+      "ts": 1791975394
+    },
+    "add-two-numbers": {
+      "title": "Add Two Numbers",
+      "difficulty": "Medium",
+      "ts": 1791976934
     }
   },
   "hr_history": {
