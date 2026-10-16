@@ -2,14 +2,14 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:00f7ff,100:7b2ff7&text=Python+Practice+Journey&fontColor=ffffff&fontSize=44&animation=fadeIn&fontAlignY=38&desc=Affan%27s+learning+log&descAlignY=58&descSize=18" width="100%" alt="header"/>
 </p>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Currently+learning%3A+Recursion;Level%3A+Easy;Streak%3A+4+days;Showing+up+every+day" alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Currently+learning%3A+Recursion;Level%3A+Easy;Streak%3A+5+days;Showing+up+every+day" alt="typing"/>
 </p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=python&logoColor=white" alt="Difficulty"/>
 <img src="https://img.shields.io/badge/Topics-14%20of%2024-blue?style=for-the-badge" alt="Topics"/>
-<img src="https://img.shields.io/badge/Streak-4%20days-orange?style=for-the-badge" alt="Streak"/>
-<img src="https://img.shields.io/badge/Days%20practiced-4-success?style=for-the-badge" alt="Days practiced"/>
+<img src="https://img.shields.io/badge/Streak-5%20days-orange?style=for-the-badge" alt="Streak"/>
+<img src="https://img.shields.io/badge/Days%20practiced-5-success?style=for-the-badge" alt="Days practiced"/>
 </p>
 
 ## 📑 Table of Contents
@@ -75,7 +75,7 @@ Open a notebook and run its cells. Some notebooks may require additional Python 
 
 | 🎯 Current topic | 📈 Difficulty | 📝 Latest question | 🔥 Streak | 🗓️ Days practiced | 🧮 Code cells |
 |---|---|---|---|---|---|
-| **Recursion** | 🟢 Easy | Count Even Numbers Using Recursion | 4 days | 4 | 72 |
+| **Recursion** | 🟢 Easy | print Hello | 5 days | 5 | 73 |
 
 > **How to read these metrics:** The practice-day count is based on distinct Git commit dates for files under `notebooks/`. The streak is calculated from those dates and counts consecutive days ending today or yesterday. It is not the same as activity on LeetCode or HackerRank.
 
@@ -84,7 +84,7 @@ Open a notebook and run its cells. Some notebooks may require additional Python 
 
 <img src="assets/growth.svg" alt="Learning growth over time" width="100%"/>
 
-**72** code cells so far across **4** practice days, averaging **+8.7 cells per day** since the first push.
+**73** code cells so far across **5** practice days, averaging **+6.8 cells per day** since the first push.
 
 <a id="topic-roadmap"></a>
 ## 🗺️ Topic Roadmap
@@ -149,7 +149,7 @@ Browse the original practice notebooks on GitHub, or use the Colab badge to open
 | Notebook | Code cells | Run it |
 |---|---|---|
 | [Practice.ipynb](notebooks/Practice.ipynb) | 10 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Phantom2101/Python-Daily-Practice/blob/main/notebooks/Practice.ipynb) |
-| [PRACTICE2.ipynb](notebooks/PRACTICE2.ipynb) | 62 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Phantom2101/Python-Daily-Practice/blob/main/notebooks/PRACTICE2.ipynb) |
+| [PRACTICE2.ipynb](notebooks/PRACTICE2.ipynb) | 63 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Phantom2101/Python-Daily-Practice/blob/main/notebooks/PRACTICE2.ipynb) |
 
 <a id="coding-platforms"></a>
 ## 🧩 Coding Platforms
@@ -206,4 +206,4 @@ _Difficulty bars count the problems listed below; the big number comes from your
 
 ---
 
-<sub>Auto-generated on 16 Oct 2026, 06:54 UTC by GitHub Actions from the practice notebooks and coding-platform data.</sub>
+<sub>Auto-generated on 16 Oct 2026, 06:58 UTC by GitHub Actions from the practice notebooks and coding-platform data.</sub>
