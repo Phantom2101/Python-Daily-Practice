@@ -2,13 +2,13 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:00f7ff,100:7b2ff7&text=Python+Practice+Journey&fontColor=ffffff&fontSize=44&animation=fadeIn&fontAlignY=38&desc=Affan%27s+learning+log&descAlignY=58&descSize=18" width="100%" alt="header"/>
 </p>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Currently+learning%3A+Lists;Level%3A+Medium;Streak%3A+11+days;Showing+up+every+day" alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Currently+learning%3A+Lists;Level%3A+Medium;Streak%3A+0+days;Showing+up+every+day" alt="typing"/>
 </p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Difficulty-Medium-yellow?style=for-the-badge&logo=python&logoColor=white" alt="Difficulty"/>
 <img src="https://img.shields.io/badge/Topics-14%20of%2024-blue?style=for-the-badge" alt="Topics"/>
-<img src="https://img.shields.io/badge/Streak-11%20days-orange?style=for-the-badge" alt="Streak"/>
+<img src="https://img.shields.io/badge/Streak-0%20days-orange?style=for-the-badge" alt="Streak"/>
 <img src="https://img.shields.io/badge/Days%20practiced-11-success?style=for-the-badge" alt="Days practiced"/>
 </p>
 
@@ -75,7 +75,7 @@ Open a notebook and run its cells. Some notebooks may require additional Python 
 
 | 🎯 Current topic | 📈 Difficulty | 📝 Latest question | 🔥 Streak | 🗓️ Days practiced | 🧮 Code cells |
 |---|---|---|---|---|---|
-| **Lists** | 🟡 Medium | Linear Search — Find the Last Occurrence | 11 days | 11 | 93 |
+| **Lists** | 🟡 Medium | Linear Search — Find the Last Occurrence | 0 days | 11 | 93 |
 
 > **How to read these metrics:** The practice-day count is based on distinct Git commit dates for files under `notebooks/`. The streak is calculated from those dates and counts consecutive days ending today or yesterday. It is not the same as activity on LeetCode or HackerRank.
 
@@ -206,4 +206,4 @@ _Difficulty bars count the problems listed below; the big number comes from your
 
 ---
 
-<sub>Auto-generated on 23 Oct 2026, 21:33 UTC by GitHub Actions from the practice notebooks and coding-platform data.</sub>
+<sub>Auto-generated on 24 Oct 2026, 21:01 UTC by GitHub Actions from the practice notebooks and coding-platform data.</sub>
