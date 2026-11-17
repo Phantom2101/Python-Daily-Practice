@@ -206,4 +206,4 @@ _Difficulty bars count the problems listed below; the big number comes from your
 
 ---
 
-<sub>Auto-generated on 15 Nov 2026, 23:01 UTC by GitHub Actions from the practice notebooks and coding-platform data.</sub>
+<sub>Auto-generated on 17 Nov 2026, 01:55 UTC by GitHub Actions from the practice notebooks and coding-platform data.</sub>
